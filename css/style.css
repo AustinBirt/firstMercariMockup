@@ -1,0 +1,123 @@
+body, html {
+    min-height:100vh;
+    margin:0;
+}
+
+.navFlexBox {
+    background-color:grey;
+    display:flex;
+    flex-direction:row;
+    list-style-type:none;
+    margin:auto;
+    padding:1.25rem;
+}
+.navFlexBox a {
+    padding:1em;
+    text-decoration:none;
+    font-size:15pt;
+}
+.access {
+    margin-left:auto;
+}
+
+.navBarSplit {
+    margin-left:auto;
+}
+
+#categories {
+    border-color: transparent;
+    font-size:13pt;
+    background-color:grey;
+}
+nav a:visited {
+    color:black;
+}
+nav a:active {
+    color:red;
+}
+
+nav a:hover {
+    background-color:red;
+}
+#categories:hover {
+    background-color:red;
+}
+
+#ecommercePhoto {
+    max-width:100%;
+    height:20rem;
+}
+#ecommercePhoto img {
+    width:100%;
+    height:100%; 
+    object-fit:cover;
+}
+h1 {
+    font-size:large;
+}
+
+#favoritesFlexBox {
+    display:flex;
+    justify-content:space-around;
+}
+
+
+table {
+    Width:30%;
+    border-collapse:collapse;
+    text-align:center;
+    font-size:15pt;
+    font-weight:bold;
+}
+
+th, td {
+    border:5px dashed orange;
+    
+}
+
+
+/* Below is signin sheet****** */
+/* 
+
+.form {
+    border:1px solid red;
+    width:20%;
+    
+}
+input,lable {
+    margin:auto;
+    display:block;
+    margin-bottom:2%;
+} */
+.form input {
+    display:block;
+}
+.form {
+    display:flex;
+    min-height:100vh;
+    justify-content:center;
+    align-items:center;
+    /* width:max-content; */
+    
+}
+.fancyBox {
+    background-color:grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:30%;
+    height:40vh;
+    padding:5%;
+    border-radius:10%;
+    
+}
+form {
+    border-radius:5%;
+    background-color:white;
+    padding:10%;
+    display:flex;
+    flex-direction:column;
+}
+form inputs {
+    margin-bottom:1%;
+}

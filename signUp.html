@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  <style>
+    input {
+        margin-bottom:2%
+    }
+    select {
+        margin-bottom:10%;
+    }
+  </style>
+</head>
+<body>
+    <nav>
+        <ul class="navFlexBox">
+            <li><a href="home.html">E-commerce Site</a></li>
+            <li class="access"><a href="signIn.html">Sign In</a></li>
+        </ul> 
+    </nav>
+
+    <div class="form">
+        <div class="fancyBox">
+            <form action="#">
+                <h2>Create Your Account</h2>
+                <lable for="email">Email:</lable>
+                <input type="email" id="email" placeholder="email@email.com" required>
+                <lable for ="password">Password:</lable>
+                <input type="password" id="password" placeholder="password" required>
+                <lable for="confirmPassword">Confirm Password:</lable>
+                <input type="password" id="confirmPassword" placeholder="password" required>
+                <lable for="marketing">How did you hear about us?</lable>
+                <select id="marketing">
+                    <option value="internetSearch">Internet Search</option>
+                    <option value="Ai">AI</option>
+                    <option value="wordOfMouth">Word of Mouth</option>
+                    <option value="anAd">An Ad</option>
+                    <option value="myResume">My Resume</option>
+                </select>
+                <label for="submit"></label>
+                <input type="submit" name="submit" value="Create An Account" id="submit">
+            </form>
+        </div>
+    </div>    
+<!-- borders are all red because of the div styles in the top of this doc -->
+
+        <div id="google" style=" background: #dd4b39;">
+            <a href="google.com" class="fa fa-google" style="color: white;"></a>
+        </div>
+        <div id="reddit" style=" background: #dd4b39;">
+            <a href="reddit.com" class="fa fa-reddit" style="color:white;"></a>
+        </div>
+        <div id="facebook" style="background-color: #3B5998;">
+            <a href="https://www.facebook.com/" class="fa fa-facebook" style="color:black;"></a>
+            </div>
+        <div id="yahoo" style="background: #430297;">
+            <a href="yahoo.com" class="fa fa-yahoo" style="color:white;"></a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        input {
+            margin-bottom:5%;
+        }
+        form a {
+            margin-bottom:10%;
+        }
+            </style>
+</head>
+<body>
+    <nav>
+       <!-- /* I will need to create flex box with the ul and the li are the */ -->
+        <ul class="navFlexBox">
+            <li><a href="home.html">E-commerce Site</a></li>
+            <li class="access"><a href="signUp.html">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="form">
+        <div class="fancyBox"> 
+            <form action="#">
+                <h3 style="text-align:center;margin-top:0;">Login</h3>
+                <lable for="email">Email:</lable>
+                <input type="email" name="email" id="email" placeholde="email@email.com" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="password" required>
+                <a href="forgotPassword.html">Forgot Password?</a>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Website Designed and Developed by: Austin Birt
+    </footer>
+</body>
+</html>

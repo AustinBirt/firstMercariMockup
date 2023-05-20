@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: grey;
+        }
+        @media screen and (max-width: 820px) {
+    #favoritesFlexBox, .navFlexBox {   
+        display:flex;
+      flex-direction: column;
+      align-items:center;
+    }
+    .access {
+        margin:auto;
+    }
+    .navBarSplit {
+        margin:auto;
+    }
+    #ecommercePhoto {
+        height:5em;
+    }
+    #favoritesFlexBox img {
+        height:20em;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- I am going to flexbox the whole page -->
+    <nav>
+        <ul class="navFlexBox">
+            <li><a href="home.html">E-Commerce Site</a></li>
+            <li class="navBarSplit">
+                <select name="categories" onChange="window.location.href=this.value" id="categories">
+                    <option>Categories</option>
+                    <option value="https://www.mercari.com/us/category/1/">Women</a></option>
+                    <option value="https://www.mercari.com/us/category/2/">Men</option>
+                    <option value="https://www.mercari.com/us/category/7/">Electronics</option>
+                    <option value="https://www.mercari.com/us/category/1611/">Toys</option>
+                    <option value="https://www.mercari.com/us/category/4/">Home</option>
+                    <option value="https://www.mercari.com/us/category/6/">Beauty</option>
+                    <option value="https://www.mercari.com/us/category/5/">Vintage</option>
+                    <option value="https://www.mercari.com/us/category/3/">Kids</option>
+                    <option value="https://www.mercari.com/us/category/8/">Sports</option>
+                    <option value="https://www.mercari.com/us/category/9/">Handmade</option>
+                    <option value="https://www.mercari.com/us/category/2882/">Office</option>
+                    <option value="https://www.mercari.com/us/category/143/">Pet Supplies</option>
+                    <option value="https://www.mercari.com/us/category/2633/">Garden&Outdoor</option>
+                    <option value="https://www.mercari.com/us/category/113/">Arts&Crafts</option>
+                    <option value="https://www.mercari.com/us/category/3170/">Tools</option>
+                    <option value="https://www.mercari.com/us/category/141/">Books</option>
+                    <option value="https://www.mercari.com/us/category/10/">Other</option>
+                </select>
+            </li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="access"><a href="signIn.html">Sign In</a></li>
+        </ul>
+    </nav>
+    <div id="ecommercePhoto">
+        <img src="images/shopping.jpeg" alt="This will be an image of products">
+        <!-- These items will be flexed row, create them in flexbox -->
+    </div>
+    <div id="favoritesFlexBox">
+        <div>
+            <h2 style="text-align:center;">Favorites</h2>
+            <img style="border-radius:25%" src="images/favoriteItems.jpg" alt="4 photos cropped together?">
+        </div>
+            <table>
+            <caption><h2>Sale Event Days</h2></caption>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Shoes</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Women's Apparel</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Men's Apparel</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Toys</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Children's Clothing</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                    <td>Electronics</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Accessories</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<br />
+<br />
+<br />
+<footer>
+    <p style="text-align:center;">website designed and developed by: Austin Birt</p>
+</footer>
+</body>
+</html>
